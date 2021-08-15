@@ -129,5 +129,6 @@ dmypy.json
 .pyre/
 
 # config-helper specific
+*.out
 typescript
 
