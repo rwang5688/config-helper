@@ -1,6 +1,6 @@
 #!/bin/bash
 # set env var
-. $CONFIG_HELPER_HOME/scripts/env.sh
+. $CONFIG_HELPER_HOME/src/env.sh
 
 PROGRAM=$(basename $0)
 
@@ -33,6 +33,6 @@ if [ ! -f $config_json ]; then
 fi
 
 # list config rules that have been deployed
-echo "[CMD] python3 $CONFIG_HELPER_HOME/scripts/list_config_rules.py $config_json"
-python3 $CONFIG_HELPER_HOME/scripts/list_config_rules.py $config_json
+echo "[CMD] python3 $CONFIG_HELPER_HOME/src/list_config_rules.py $config_json"
+python3 $CONFIG_HELPER_HOME/src/list_config_rules.py $config_json
 
