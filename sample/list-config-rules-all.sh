@@ -41,6 +41,13 @@ list-config-rules.sh wangrob-sandbox-02-us-east-2.json
 list-config-rules.sh wangrob-sandbox-02-us-west-2.json
 cd ..
 
+cd wangrob-sandbox-03
+list-config-rules.sh wangrob-sandbox-03-eu-west-1.json
+list-config-rules.sh wangrob-sandbox-03-us-east-1.json
+list-config-rules.sh wangrob-sandbox-03-us-east-2.json
+list-config-rules.sh wangrob-sandbox-03-us-west-2.json
+cd ..
+
 cd wangrob-sandbox-dataedu-01
 list-config-rules.sh wangrob-sandbox-dataedu-01-eu-west-1.json
 list-config-rules.sh wangrob-sandbox-dataedu-01-us-east-1.json
